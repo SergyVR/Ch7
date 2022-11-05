@@ -7,7 +7,7 @@ Random rnd = new Random();
 for (int i = 0; i < m; i++)   
   {   
     for (int j = 0; j < n; j++)        
-   {   resultMatrix[i,j] = rnd.Next(1,99); }  
+   {   resultMatrix[i,j] = rnd.Next(10,99); }  
   }
     return resultMatrix;
  } 
